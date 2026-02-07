@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import FLOAT16_ABS_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-abs-mask@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-float16-abs-mask/tags). For example,
+
+```javascript
 import FLOAT16_ABS_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-abs-mask@v0.1.1-esm/index.mjs';
 ```
 
@@ -80,7 +85,7 @@ var bool = ( FLOAT16_ABS_MASK === 0x7fff );
 import toWord from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float16-base-to-word@esm/index.mjs';
 import fromWord from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float16-base-from-word@esm/index.mjs';
 import toBinaryString from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-uint32-base-to-binary-string@esm/index.mjs';
-import FLOAT16_ABS_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-abs-mask@v0.1.1-esm/index.mjs';
+import FLOAT16_ABS_MASK from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-abs-mask@esm/index.mjs';
 
 var x = -11.5;
 var w = toWord( x ); // 1 10010 0111000000
