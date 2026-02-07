@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-FLOAT16_ABS_MASK = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-abs-mask@umd/browser.js' )
+FLOAT16_ABS_MASK = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-abs-mask@v0.1.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var FLOAT16_ABS_MASK = require( 'path/to/vendor/umd/constants-float16-abs-mask/i
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-abs-mask@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-abs-mask@v0.1.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -102,7 +102,7 @@ var bool = ( FLOAT16_ABS_MASK === 0x7fff );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-float16-base-to-word@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-float16-base-from-word@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-uint32-base-to-binary-string@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-abs-mask@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float16-abs-mask@v0.1.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
